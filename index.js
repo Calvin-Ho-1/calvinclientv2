@@ -77,7 +77,7 @@ function createList(which, city) {
 
     // run in cloud
     //$.get("https://kurtreadfrommongo.azurewebsites.net/api/readfrommongo/?name="+ param, function(data, status){
-    $.get("https://calvinrestaurant.azurewebsites.net/api/calvinmongowriter"+ param, function(data, status){
+    $.get("https://calvinrestaurant.azurewebsites.net/api/calvinmongowriter/?name="+ param, function(data, status){
      
         // run local
      //$.get("http://localhost:7071/api/calvinmongowriter/?name=" + param, function(data, status){ 
